@@ -1,0 +1,26 @@
+Main:
+1. Weather API integration.
+2. Java/Python program integration.
+3. Three.js
+4. Languages, Programms, Extensions  I learned using 
+
+
+Pages:
+   Education
+   Spare time(soccer, gaming, teaching)
+   Experience(teaching, pizza shop)
+
+
+
+
+
+
+
+Branch:
+My animated/real picture
+Beautiful resume(onclick) download...
+
+
+
+
+
