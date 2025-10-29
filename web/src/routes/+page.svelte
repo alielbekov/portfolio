@@ -1,3 +1,5 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<div class="flex flex-col gap-4 p-2">
+    <h1>Hello my name is Ali</h1>
+    <a href="/projects">Projects</a>
+    <a href="/off-topic">Off Topic</a>
+</div>
