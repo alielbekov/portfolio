@@ -2,17 +2,16 @@
 	"name": "web",
 	"version": "0.0.1",
 	"scripts": {
-	"dev": "vite dev --host --port 3000",
-	"build": "vite build && npm run prepack",
-	"preview": "vite preview --host --port 3000",
-	"prepare": "svelte-kit sync || echo ''",
-	"prepack": "svelte-kit sync && svelte-package && publint",
-	"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-	"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-	"format": "prettier --write .",
-	"lint": "prettier --check . && eslint ."
-	}
-,
+		"dev": "vite dev --host --port 3000",
+		"build": "vite build && npm run prepack",
+		"preview": "vite preview --host --port 3000",
+		"prepare": "svelte-kit sync || echo ''",
+		"prepack": "svelte-kit sync && svelte-package && publint",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"format": "prettier --write .",
+		"lint": "prettier --check . && eslint ."
+	},
 	"files": [
 		"dist",
 		"!dist/**/*.test.*",
@@ -54,6 +53,7 @@
 		"publint": "^0.3.13",
 		"svelte": "^5.39.5",
 		"svelte-check": "^4.3.2",
+		"svelte-feather-icons": "^4.2.0",
 		"tailwindcss": "^4.1.13",
 		"typescript": "^5.9.2",
 		"typescript-eslint": "^8.44.1",
@@ -61,5 +61,8 @@
 	},
 	"keywords": [
 		"svelte"
-	]
+	],
+	"dependencies": {
+		"feather-icons": "^4.29.2"
+	}
 }
