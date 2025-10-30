@@ -62,6 +62,6 @@
 		"svelte"
 	],
 	"engines": {
-		"node": "20"
+		"node": "25.1.0"
 	}
 }
