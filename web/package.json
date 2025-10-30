@@ -60,8 +60,5 @@
 	},
 	"keywords": [
 		"svelte"
-	],
-	"engines": {
-		"node": "25.1.0"
-	}
+	]
 }
