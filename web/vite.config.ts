@@ -3,12 +3,13 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-	  server: {
+  server: {
     host: true,
-    allowedHosts: ['https://alielbekov.dev', 'https://www.alielbekov.dev', 'http://localhost:3000']
+    allowedHosts: true, // ✅ allow all hosts (or use ['alielbekov.dev'])
   },
   preview: {
-    allowedHosts: ['https://alielbekov.dev', 'https://www.alielbekov.dev', 'http://localhost:3000']
+    port: 3000, // ensure same port as your container
+    allowedHosts: true, // ✅ allow all hosts during vite preview
   },
-	plugins: [tailwindcss(), sveltekit()]
+  plugins: [sveltekit(), tailwindcss()]
 });
