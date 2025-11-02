@@ -42,7 +42,7 @@
     </div>
 
     <div class="pt-8 border-t border-gray-800 mt-8">
-        <h2 class="text-xl mb-2">Let's check if you're a programmer!</h2>
+        <h2 class="text-xl mb-2">Let's check if you're a human!</h2>
         <p class="mb-2">In JavaScript, what does <code class="bg-gray-900 px-1">0.1 + 0.2</code> equal?</p>
         <form onsubmit={(e) => { e.preventDefault(); checkAnswer(); }} class="flex gap-2 items-center">
             <input
