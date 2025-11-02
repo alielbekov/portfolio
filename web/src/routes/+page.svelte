@@ -63,14 +63,21 @@
             {#if result === 'human'}
                 <div class="mt-3 text-green-400">
                     <p class="text-xl font-bold">🎉 YEEEEEES! You are a human!!!</p>
-                    <p class="mt-2">You made a mistake (or maybe you're just being human)! Mathematically, 0.1 + 0.2 should equal 0.3, but computers use binary floating-point arithmetic which can't represent these decimals exactly.</p>
+                    <p class="mt-2">Yes you are right and are a human! Mathematically, 0.1 + 0.2 should equal 0.3, but computers use binary floating-point arithmetic which can't represent these decimals exactly.</p>
                     <p class="mt-2">In JavaScript (and most programming languages), <code class="bg-gray-900 px-1">0.1 + 0.2</code> actually equals <code class="bg-gray-900 px-1">0.30000000000000004</code> due to rounding errors.</p>
                     <p class="mt-2">Learn more: <a class="text-blue-500 underline hover:text-green-600" href="https://en.wikipedia.org/wiki/Floating-point_arithmetic" target="_blank">Floating-point arithmetic on Wikipedia</a></p>
                 </div>
-            {:else if result === 'robot'}
+            {:else if result === 'robot'}   
                 <div class="mt-3 text-red-400">
                     <p class="text-xl font-bold">👀 I smell ROBOT 🤖</p>
                     <p class="mt-2">Nice try! You either looked it up or you're trying too hard with all those zeros. Computers use binary floating-point arithmetic which can't represent these decimals exactly.</p>
+                    <p class="mt-2">In JavaScript (and most programming languages), <code class="bg-gray-900 px-1">0.1 + 0.2</code> actually equals <code class="bg-gray-900 px-1">0.30000000000000004</code> due to rounding errors.</p>
+                    <p class="mt-2">Learn more: <a class="text-blue-500 underline hover:text-green-600" href="https://en.wikipedia.org/wiki/Floating-point_arithmetic" target="_blank">Floating-point arithmetic on Wikipedia</a></p>
+                </div>
+            {:else if result === 'exact'}
+                <div class="mt-3 text-red-400">
+                    <p class="text-xl font-bold">👀 I smell ROBOT 🤖</p>
+                    <p class="mt-2">YOU ARE RIGHT! But how did you know that exact number? You must have looked it up or you're just a very nerdy human who knows the number of zeros...</p>
                     <p class="mt-2">In JavaScript (and most programming languages), <code class="bg-gray-900 px-1">0.1 + 0.2</code> actually equals <code class="bg-gray-900 px-1">0.30000000000000004</code> due to rounding errors.</p>
                     <p class="mt-2">Learn more: <a class="text-blue-500 underline hover:text-green-600" href="https://en.wikipedia.org/wiki/Floating-point_arithmetic" target="_blank">Floating-point arithmetic on Wikipedia</a></p>
                 </div>
