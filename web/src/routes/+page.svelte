@@ -36,6 +36,8 @@
             <li class="break-words">Reading <a class="text-blue-500 underline hover:text-green-600" href="https://www.amazon.com/Understanding-Cisco-Networking-Technologies-Certification/dp/1119659027" target="_blank">Cisco Networking Book</a></li>
             <li class="break-words">Tinkering with <a class="text-blue-500 underline hover:text-green-600" href="https://n8n.io" target="_blank">n8n</a></li>
             <li class="break-words">Looking into <a class="text-blue-500 underline hover:text-green-600" href="https://platform.openai.com/docs/guides/realtime" target="_blank">Realtime Audio API by ChatGPT</a></li>
+            <li class="break-words">Looking into <a class="text-blue-500 underline hover:text-green-600" href="https://github.com/browser-use" target="_blank">an Open Source Browser Agent</a></li>
+
             <li class="break-words">WEX OTR Card Management Web Service - "SOAP" servers</li>
         </ul>
     </div>
