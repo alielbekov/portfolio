@@ -33,7 +33,8 @@
     <div class="pt-8">
         <h2 class="text-xl md:text-2xl font-semibold mb-2">Currently</h2>
         <ul class="list-disc pl-6 space-y-1">
-            <li class="break-words">Reading <a class="text-blue-500 underline hover:text-green-600" href="https://www.amazon.com/Understanding-Cisco-Networking-Technologies-Certification/dp/1119659027" target="_blank">Cisco Networking Book</a></li>
+            <li class="break-words">Reading <a class="text-blue-500 underline hover:text-green-600" href="https://www.amazon.com/Scalability-Startup-Engineers-Artur-Ejsmont/dp/0071843655" target="_blank">Scalability Rules by Artur Ejsmont</a></li>
+            <li class="break-words"><s>Understanding Cisco Networking Technologies (Completed!)</s></li>
             <li class="break-words">Tinkering with <a class="text-blue-500 underline hover:text-green-600" href="https://n8n.io" target="_blank">n8n</a></li>
             <li class="break-words">Looking into <a class="text-blue-500 underline hover:text-green-600" href="https://platform.openai.com/docs/guides/realtime" target="_blank">Realtime Audio API by ChatGPT</a></li>
             <li class="break-words">WEX OTR Card Management Web Service - "SOAP" servers</li>
