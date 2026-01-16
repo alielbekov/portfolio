@@ -26,7 +26,7 @@
         <h1 class="text-2xl md:text-3xl font-bold">Hi, I'm Ali.</h1>
         <div class="pt-2 pl-4 space-y-1">
             <p>I love building software.</p>
-            <p>I play soccer on weekends.</p>
+            <p>I <a class="text-blue-500 underline hover:text-green-600" href="/video/soccer.mp4" target="_blank">play soccer</a> on weekends. (we ate that shot)</p>
             <p class="break-words">Occasional contributor to <a class="text-blue-500 underline hover:text-green-600" href="https://github.com/ricky0123/vad">Ricky's VAD</a></p>
         </div>
     </div>
